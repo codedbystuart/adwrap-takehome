@@ -41,7 +41,7 @@ The CSV Debt Summarizer is a simple API that processes CSV files containing mone
 
 ### 2. **Download Processed Files**
 
-- **Endpoint:** `GET /processed/:filename`
+- **Endpoint:** `GET /api/v1/processed/:filename`
 - **Description:** Downloads the processed CSV or PDF file by filename.
 - **Parameters:**
   - `filename` (type: `string`, required)
